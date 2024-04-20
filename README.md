@@ -10,6 +10,6 @@ The population size has been tuned to optimize performance across the test set o
 
 The code relies on `numpy` and `pandas`, so before running install them with `python3 -m pip install numpy pandas`.
 
-The code's performance on the benchmark can then be run with `python3 evaluateShared.py --cmd "python3 solver_ocga.py" --problemDir trainingProblems`. The average cost acheived is 61189.
+The code's performance on the benchmark can then be run with `python3 evaluateShared.py --cmd "python3 solverOCGA.py" --problemDir trainingProblems`. The average cost acheived is 61189.
 
-A greedy solver has been included for comparison, it can be evaluated with `python3 evaluateShared.py --cmd "python3 solver_greedy_.py" --problemDir trainingProblems`. It produces an average cost of 88512.
+A greedy solver has been included for comparison, it can be evaluated with `python3 evaluateShared.py --cmd "python3 solverGreedy_.py" --problemDir trainingProblems`. It produces an average cost of 88512.
